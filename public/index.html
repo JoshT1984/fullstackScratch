@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPONGEBOB</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="card-container"></div>
+      <img class="main-text" src="./images/SPONGEBOB.png" alt="" />
+      <button class="fetch">Fetch Data</button>
+    </div>
+    <section>
+      <img class="bubble" src="./images/speech_bubble.webp" alt="" />
+    </section>
+    <section class="txt"></section>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/index.js"></script>
+
+    <form class="absolute" ="action" ="/cards" method="POST">
+      <input type="number" placeholder="enter number above 10" name="input" />
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>

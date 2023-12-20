@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(240, 227, 63);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#main-container {
+  width: 70%;
+  height: 75%;
+  background-color: rgb(126, 181, 232);
+  border: 20px solid rgb(180, 122, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#card-container {
+  width: 16em;
+  height: 20em;
+  background-color: rgb(230, 58, 58);
+  border: 1px black solid;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fetch {
+  background-color: yellow;
+  color: rgb(18, 129, 234);
+  font-weight: 700;
+  font-size: 20px;
+  border: 4px rgba(0, 0, 0, 0.349) solid;
+  box-shadow: inset 20px;
+  position: absolute;
+  bottom: 7rem;
+  width: 6rem;
+  height: 4rem;
+  box-shadow: rgba(240, 237, 46, 0.4) 5px 5px, rgba(233, 240, 46, 0.3) 10px 10px,
+    rgba(214, 240, 46, 0.2) 15px 15px, rgba(240, 162, 46, 0.1) 20px 20px,
+    rgba(240, 237, 46, 0.05) 25px 25px;
+}
+
+.fetch:hover {
+  background-color: rgb(70, 164, 252);
+  color: yellow;
+}
+
+.sbImage {
+  width: 12rem;
+  height: 13rem;
+}
+
+.main-text {
+  position: absolute;
+  bottom: 35em;
+  width: 25rem;
+  height: 8rem;
+}
+
+.bubble {
+  height: 26rem;
+  rotate: -20deg;
+  position: absolute;
+  right: 74rem;
+  bottom: 24rem;
+}
+
+.txt {
+  position: absolute;
+  right: 79rem;
+  bottom: 36.9rem;
+  text-wrap: wrap;
+  font-size: 0.95rem;
+  width: 17rem;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: rgb(3, 114, 151);
+}
+
+.absolute {
+  position: absolute;
+  left: 84rem;
+  bottom:49rem;
+}
+
+#submit {
+  position: absolute;
+  background-color: yellow;
+  color: rgb(18, 129, 234);
+  font-weight: bolder;
+}
